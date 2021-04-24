@@ -4,80 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | PromoVideoLab</title>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,
-700;1,400&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap" 
-rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap</title>
+
+    <!-- Подключение Bootstrap-стилей -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+    <!-- Подключение собственных стилей -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
-        <header >
-            <div class="conteiner"> 
-                <a href="#">
-                    <img id ="logo" class ="logo-lab" src="img/logo.svg" 
-                                                        alt="promovideolab">
-                 </a>
-                    <nav>
-                        <ul class="main-menu">
-                            <li><a href="#">Types of videos</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a class="btn" href="#">schedule a call</a></li>
-                            <li class="burger-menu"><button></button></li>
-                        </ul>
-                    </nav>
-            </div>    
-        </header>
-     <section class="promo">
-        <div class="conteiner">
-            <article class="promo-content">
-                <h1 class="title">
-                </h1>
-                <p></p>
-                <div class="buttons">
-                    <a class="btn-play" href="#">
-                        <span class="btn-circle btn-circle-play">
-                        </span> play video
-                    </a>
-                </div>
-            </article>
-        </div>    
-     </section>   
-
-
-        <footer>
-            <section class="footer-top">  
-            <div class="conteiner">
-                <nav>
-                    <ul class="footer-menu">
-                        <li>Ready to start your video?</li>
-                        <li><a class="btn" href="#">schedule a call</a></li>
-                        <li>Let's talk!</li>
-                    </ul>
-                </nav>
-
-            </div>
-            </section>
-            <section class="footer-bottom">
-            <div class="conteiner">
-                
-                <a href="#">
-                    <img src="img/logo.svg" alt="promovideolab">
-
-                </a>    
-                <nav>
-                    <ul class="footer-menu">
-                        <li><a class="btn-youtube" href="#"><img src="img/btn_bg.png" alt="youtube"></a></li>
-                        <li><a class="btn-ln" href="#"><img src="img/btn_bg.png" alt="ln"></a></li>
-                        <li><a class="btn-facebook" href="#"><img src="img/btn_bg.png" alt="facebook"></a></li>
-                        <li><a class="footer-mail" href="#">info@promovideolab.com</a></li>     
-                    </ul>
-                </nav>
-            </div>    
-            </section>
-        </footer>  
     
+
+<!-- Подключение библиотеки jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Подключение библиотеки popper -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Подключение скрипта Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    
+    <!-- <header> 
+        <div class="container">
+            <div class="row">
+                <div class="block-1 col-12 col-md-4 col-lg-6 col-xl-2">1</div>
+                <div class="block-2 col-12 col-md-4 col-lg-6 col-xl-2">2</div>
+                <div class="block-3 col-12 col-md-4 col-lg-6 col-xl-2">3</div>
+                <div class="block-4 col-12 col-md-4 col-lg-6 col-xl-2 d-md-none d-lg-block">4</div>
+                <div class="block-5 col-12 col-md-4 col-lg-6 col-xl-2 d-md-none d-lg-block">5</div>
+                <div class="block-6 col-12 col-md-4 col-lg-6 col-xl-2 d-md-none d-lg-block">6</div>
+            </div>
+        </div>
+</header>  -->
+<header>
+    <div class="container">
+        <div class="row">
+            <a href="#">
+                <img src="img/logo.svg" alt="PromoVideoLab" class="logo">
+            </a>
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="#">Types of videos</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a class="btn" href="#">schedule a call</a></li>
+                    <li class="burger-menu"><button></button></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
 </body>
 </html>
